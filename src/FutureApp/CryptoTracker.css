@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #e6e6e6, #ffffff);
+    height: 100vh;
+  }
+  
+  .dashboard {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--dark-color);
+  }
+  
+  .dashboard h1 {
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .dashboard p {
+    margin-bottom: 1em;
+  }
+  
+  .dashboard table {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    background-color: var(--light-color);
+  }
+  
+  .dashboard th,
+  .dashboard td {
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 4px;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  .dashboard th {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+  }
+  
+  .dashboard input[type="text"] {
+    width: 6em;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--dark-color);
+    color: var(--dark-color);
+  }
+  
